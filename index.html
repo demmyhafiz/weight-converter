@@ -1,57 +1,59 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<style>
-	body {
-  margin-top:70px;
-  background:#333;
-  color:#fff;
-}
-</style>
-    <title>Weight Converter App</title>
-  </head>
-  <body>
-    <h1>Weight Converter App</h1>
-	<div class="container">
-  <div class="row">
-    <div class="col-md-6 offset-md-3">
-      <h1 class="display-4 text-center mb-3">Weight Converter</h1>
-      <form>
-        <div class="form-group">
-          <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
-        </div>
-      </form>
-      <div id="output">
-        <div class="card bg-primary mb-2">
-          <div class="card-block">
-            <h4>Grams:</h4>
-            <div id="gramsOutput"></div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      margin-top: 70px;
+      background: rgb(250, 250, 250);
+      color: #fff;
+    }
+  </style>
+  <title>Weight Converter App</title>
+</head>
+
+<body>
+  <h1 class="text-center text-danger">Weight Converter App</h1>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h1 class="display-4 text-center mb-3 text-dark">Weight Converter</h1>
+        <form>
+          <div class="form-group">
+            <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
           </div>
-        </div>
-
-        <div class="card bg-success mb-2">
-          <div class="card-block">
-            <h4>Kilograms:</h4>
-            <div id="kgOutput"></div>
+        </form>
+        <div id="output">
+          <div class="card bg-primary mb-2">
+            <div class="card-block text-body">
+              <h4>Grams:</h4>
+              <div id="gramsOutput"></div>
+            </div>
           </div>
-        </div>
 
-        <div class="card bg-danger mb-2">
-          <div class="card-block">
-            <h4>Ounces:</h4>
-            <div id="ozOutput"></div>
+          <div class="card bg-success mb-2">
+            <div class="card-block text-body">
+              <h4>Kilograms:</h4>
+              <div id="kgOutput"></div>
+            </div>
+          </div>
+
+          <div class="card bg-danger mb-2">
+            <div class="card-block text-body">
+              <h4>Ounces:</h4>
+              <div id="ozOutput"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-    <script src="main.js"></script>
-  </body>
+  <script src="main.js"></script>
+</body>
+
 </html>
